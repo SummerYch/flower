@@ -1,0 +1,196 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #ffd8d9;
+}
+.clearfix:after{
+    display:block;
+    content:"";
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix{
+    zoom:1;
+}
+.container{
+    width: 702px;
+    margin: 0 auto;
+}
+.container .nav img{
+    margin-top: 2px;
+}
+.container .nav ul li{
+    float:left;
+}
+.container .nav ul li a{
+    display: block;
+    width: 100px;
+    height: 33px;
+    background: url("images/button1.jpg");
+}
+.container .nav ul li a:hover{
+    display:block;
+    width:100px;
+    height:33px;
+    background:url("images/button1_bg.jpg");
+}
+.container .nav ul li p{
+    color: #630002;
+    font-size: 13px;
+    text-align: center;
+    width: 100px;
+    line-height: 33px;
+}
+.left{
+    width: 180px;
+    boeder-radius:4px;
+    margin-top: 4px;
+    background: #ffffff;
+    float:left;
+}
+.left .login,.classify{
+    width: 162px;
+}
+.user,.password{
+    width: 90px;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+.left .login .lo{
+    margin-left: 24px;
+}
+.pw{
+    font-size: 13px;
+    color: #333333;
+}
+.container .left .classify .purpose .fir1{
+    width: 144px ;
+    height: 20px;
+    background: #ffd1d1;
+    margin-left: 18px;
+    padding-left: 6px;
+}
+.container .left .classify .purpose ul li{
+    width:138px;
+    height: 20px;
+    border-bottom: 1px dotted #999999;
+    margin-left: 18px;
+    margin-top: 4px;
+}
+.container .left .classify .purpose ul li a{
+    display: block;
+    font-size: 13px;
+    margin-left: 6px;
+    color: #000;
+}
+.container .left .source .fir2{
+    width: 144px ;
+    height: 20px;
+    background: #ffd1d1;
+    margin-top: 16px;
+    margin-left: 18px;
+    padding-left: 6px;
+}
+.container .left .source ul li{
+    width:138px;
+    height: 20px;
+    border-bottom: 1px dotted #999999;
+    margin-left: 18px;
+    margin-top: 4px;
+}
+.container .left .source ul li a{
+    display: block;
+    font-size: 13px;
+    margin-left: 6px;
+    color: #000;
+}
+.container .left .price .fir3{
+    width: 144px ;
+    height: 20px;
+    background: #ffd1d1;
+    margin-left: 18px;
+    margin-top: 16px;
+    padding-left: 6px;
+}
+.container .left .price ul li{
+    width:138px;
+    height: 20px;
+    border-bottom: 1px dotted #999999;
+    margin-left: 18px;
+    margin-top: 4px;
+}
+.container .left .price ul li a{
+    display: block;
+    font-size: 13px;
+    margin-left: 6px;
+    color: #000;
+}
+.right{
+    width: 520px;
+    margin-left: 1px;
+    margin-top: 4px;
+    float:left;
+}
+.right .right1,.right2,.right3,.right4{
+    width: 520px;
+    background: #fff;
+    border-radius:4px;
+}
+.container .right table{
+    width: 520px;
+}
+.container .right2{
+    padding-bottom: 18px;
+}
+.container .right .right2 table tr .td1,.td2{
+    padding-left: 20px;
+}
+.container .right .right2 table tr td p{
+    text-align:center;
+}
+.container .right .right3 .new{
+    margin-bottom: 16px;
+}
+ .word{
+     text-align: center;
+    font-size:13px;
+    color:#666666;
+}
+.container .right .right2 table tr td .pri{
+    font-size:13px;
+    color:#000000;
+}
+.container .right .right3 .new{
+    margin-left: 20px;
+    float:left;
+}
+.container .right .right2,.right3,.right4{
+    margin-top: 6px;
+}
+.right .right4 .last1,.last2{
+
+    width: 220px;
+    float:left;
+}
+.right .right4{
+    padding-bottom: 20px;
+}
+.right .right4 .last1{
+    margin-left: 36px;
+}
+.right .right4 .last1,.last2 ul li a{
+    display: block;
+    width: 260px;
+    line-height: 18px;
+    font-size: 14px;
+
+}
+.right .right4 ul li span{
+    color:#222222;
+}
